@@ -3,7 +3,9 @@
 # jsonREshape
 
 Reshapes a json object using regex.
-Supports asyncornous calls 
+
+Async support on transforms.
+
 
   
 ```
