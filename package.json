@@ -2,7 +2,7 @@
   "author": "Stefan Woskowiak <swoskowiak@gmail.com> (rixcode.com)",
   "name": "json-reshape",
   "description": "JSON reshaping library w/ asynchronous support powered by RegEx. Create transform flows for JSON->JSON needs",
-  "version": "1.0.6",
+  "version": "0.1.0",
   "repository": {
     "url": "https://github.com/SWoskowiak/jMeta"
   },
