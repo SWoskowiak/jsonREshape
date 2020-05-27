@@ -1,0 +1,37 @@
+{
+  "author": "Stefan Woskowiak <swoskowiak@gmail.com> (rixcode.com)",
+  "name": "json-reshape",
+  "description": "JSON reshaping library w/ asynchronous support powered by RegEx. Create transform flows for JSON->JSON needs",
+  "version": "1.0.6",
+  "repository": {
+    "url": "https://github.com/SWoskowiak/jMeta"
+  },
+  "license": "MIT",
+  "main": "jsonreshape.js",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.7",
+    "dirty-chai": "^2.0.1",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1"
+  },
+  "keywords": [
+    "json",
+    "map",
+    "paths",
+    "keys",
+    "lodash",
+    "shape",
+    "mutate",
+    "regex"
+  ],
+  "dependencies": {
+    "jmeta": "^1.0.6",
+    "lodash": "^4.17.15"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha jsonreshape.test.js --exit --timeout 5000",
+    "coverage": "nyc report",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  }
+}

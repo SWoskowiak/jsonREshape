@@ -1,0 +1,3 @@
+fix any additional commenting and add jsdoc comments
+update README to include instructions
+publish to NPM
